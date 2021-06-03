@@ -29,6 +29,7 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="assets/css/theme.css" rel="stylesheet" />
+    
 
   </head>
 
@@ -45,13 +46,39 @@
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto pt-2 pt-lg-0 font-base">
               <li class="nav-item px-2"><a class="nav-link fw-medium active" href="#">Нүүр</a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#services">Бидний тухай</a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#events">Үйл ажиллагаа </a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#testimonial">Подкаст </a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#zorilgo">Country </a></li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Бидний тухай
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" style="color: black;" href="#alsiin">Алсын хараа</a>
+                  <a class="dropdown-item" style="color: black;" href="#zorilgo">Эрхэм зорилго</a>
+                  <a class="dropdown-item" style="color: black;" href="#unetZuils">Үнэт зүйлс</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#events" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Үйл ажиллагаа
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" style="color: black;" href="#alsiin">Судалгаа</a>
+                  <a class="dropdown-item" style="color: black;" href="#zorilgo">Төсөл хөтөлбөр</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown px-2" data-anchor="data-anchor">
+                <a class="nav-link dropdown-toggle" href="#events" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Подкаст
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" style="color: black;" href="#alsiin">Эрүүл мэнд</a>
+                  <a class="dropdown-item" style="color: black;" href="#zorilgo">Ёс суртахуун</a>
+                  <a class="dropdown-item" style="color: black;" href="#zorilgo">Түүх, бахархал, өв соёл уламжлал</a>
+                </div>
+              </li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link" href="#zorilgo">Тоон үзүүлэлт</a></li>
             </ul>
-            <form class="ps-lg-5">
-              <button class="btn btn-outline-primary order-0" type="submit">Apply</button>
+            <form class="ps-lg-3">
+              <button class="btn btn-outline-primary order-0" type="submit">Оролцох</button>
             </form>
           </div>
         </div>
@@ -708,7 +735,7 @@
 
         <div class="container">
           <div class="row justify-content-between pb-2 pt-8">
-            <div class="col-12 col-lg-auto mb-5 mb-lg-0"><a class="d-flex align-items-center fw-semi-bold fs-3" href="#"> <img class="me-3" src="assets/img/gallery/footer-logo.png" alt="..." /></a>
+            <div class="col-12 col-lg-auto mb-5 mb-lg-0"><a class="d-flex align-items-center fw-semi-bold fs-3" href="#"> <img class="me-3" width="300" height="70" src="assets/img/gallery/ebd-logo.png" alt="..." /></a>
               <p class="my-3 text-100 fw-light">Email : contact@ebd.org.mn<br />Phone : 88008283<br /> </p>
             </div>
             <div class="col-auto mb-3">
@@ -771,6 +798,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
+    <script>$('.dropdown-toggle').dropdown()</script>
     <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
