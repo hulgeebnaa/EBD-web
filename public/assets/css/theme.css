@@ -53,9 +53,6 @@
     scroll-behavior: smooth;
   }
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
 
 body {
   margin: 0;

@@ -60,5 +60,13 @@
   },
   "browserslist": [
     "last 5 version"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hulgeebnaa/EBD-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hulgeebnaa/EBD-web/issues"
+  },
+  "homepage": "https://github.com/hulgeebnaa/EBD-web#readme"
 }
