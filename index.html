@@ -15,19 +15,19 @@
   <!-- ===============================================-->
   <!--    Favicons-->
   <!-- ===============================================-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/ebdfavi.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/ebdfavi.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/ebdfavi.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/ebdfavi.png">
-  <link rel="manifest" href="assets/img/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/assets/img/icons/ebdfavi.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/assets/img/icons/ebdfavi.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/assets/img/icons/ebdfavi.png">
+  <link rel="shortcut icon" type="image/x-icon" href="public/assets/img/icons/ebdfavi.png">
+  <link rel="manifest" href="public/assets/img/favicons/manifest.json">
 
-  <meta name="msapplication-TileImage" content="assets/img/icons/ebdfavi.png">
+  <meta name="msapplication-TileImage" content="public/assets/img/icons/ebdfavi.png">
   <meta name="theme-color" content="#ffffff">
   <!-- ===============================================-->
   <!--    Stylesheets-->
   <!-- ===============================================-->
-  <link href="assets/css/theme.css" rel="stylesheet" />
-  <link href="./style.css" rel="stylesheet" />
+  <link href="public/assets/css/theme.css" rel="stylesheet" />
+  <link href="public/style.css" rel="stylesheet" />
   <style>
     body {
       margin-top: 20px;
@@ -190,11 +190,12 @@
 
   <!-- ===============================================-->
   <!--    Main Content-->
+  
   <!-- ===============================================-->
   <main class="main" id="top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+    <nav id="navbarId" class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="data-navbar-on-scroll">
       <div class="container"><a class="navbar-brand d-flex align-items-center fw-semi-bold fs-3" href="#"> <img
-            class="me-3" width="300" height="70" src="assets/img/gallery/ebd-logo.png" alt="" /></a>
+            class="me-3" width="300" height="70" src="public/assets/img/gallery/ebd-logo.png" alt="" /></a>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -248,7 +249,6 @@
           </ul>
           <form class="ps-lg-3">
             <a href="#handiv" class="btn btn-outline-primary order-0" type="submit">Donate now</a>
-            <a href="https://www.youtube.com/" class="btn btn-outline-primary order-0" type="submit">Youtube</a>
           </form>
         </div>
       </div>
@@ -256,12 +256,13 @@
 
     <section class="py-0" id="home">
       <div class="bg-holder d-none d-md-block"
-        style="background-image:url(assets/img/new/zaan3.png); background-size: 100% 100%; margin-top:1.625rem;">
+        style="background-image:url(public/assets/img/new/zaan3.png); background-size: 100% 100%; margin-top:1.625rem;">
+
       </div>
       <!--/.bg-holder-->
 
       <div class="bg-holder d-block d-md-none"
-        style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:right top;background-size:contain;margin-top:5.625rem;">
+        style="background-image:url(public/assets/img/illustrations/hero-bg.png);background-position:right top;background-size:contain;margin-top:5.625rem;">
       </div>
       <!--/.bg-holder-->
 
@@ -308,6 +309,7 @@
               </ul>
             </div>
           </div>
+          <p style="text-align: right; color: #ffffffd8;">© www.allposters.com</p>
         </div>
       </div>
     </section>
@@ -348,14 +350,14 @@
                     </div>
                     <dl>
                       <dt>ХАМРАХ ХҮРЭЭ </dt>
-                      <div class="col-lg-7 mx-auto text-sm-start mb-4">
-                        <li>Бодлого гаргагчид</li>
-                        <li>Хүүхэд</li>
-                        <li>Багш </li>
-                        <li>Нийгмийн ажилтнууд</li>
-                        <li>Эцэг эх</li>
-                        <li>Зорилготой нийцэх бусад төрийн болон төрийн бус байгууллагууд</li>
-                        <li>Дэмжигч хувь хүмүүс, хувийн хэвшлийн байгууллагууд</li>
+                      <div class="col-lg-7 mx-auto text-sm-start mb-4 text-center">
+                          <li >Бодлого гаргагчид</li>
+                          <li>Хүүхэд</li>
+                          <li>Багш </li>
+                          <li>Нийгмийн ажилтнууд</li>
+                          <li>Эцэг эх</li>
+                          <li>Зорилготой нийцэх бусад төрийн болон төрийн бус байгууллагууд</li>
+                          <li>Дэмжигч хувь хүмүүс, хувийн хэвшлийн байгууллагууд</li>
                       </div>
                     </dl>
                     <dl>
@@ -394,7 +396,7 @@
               <div class="row justify-content-center">
                 <div class="col-md-4 mb-4">
                   <div class="card h-100 shadow card-span">
-                    <!-- <img class="card-img-top" src="assets/img/gallery/news-1.png" alt="news" /> -->
+                    <!-- <img class="card-img-top" src="public/assets/img/gallery/news-1.png" alt="news" /> -->
                     <div class="card-body">
                       <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                         fill="currentColor" viewBox="0 0 16 16">
@@ -412,7 +414,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                   <div class="card h-100 shadow card-span">
-                    <!-- <img class="card-img-top" src="assets/img/gallery/news-2.png" alt="news" /> -->
+                    <!-- <img class="card-img-top" src="public/assets/img/gallery/news-2.png" alt="news" /> -->
                     <div class="card-body">
                       <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                         fill="currentColor" viewBox="0 0 16 16">
@@ -430,7 +432,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                   <div class="card h-100 shadow card-span">
-                    <!-- <img class="card-img-top" src="assets/img/gallery/news-3.png" alt="news" /> -->
+                    <!-- <img class="card-img-top" src="public/assets/img/gallery/news-3.png" alt="news" /> -->
                     <div class="card-body">
                       <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                         fill="currentColor" viewBox="0 0 16 16">
@@ -483,7 +485,7 @@
                     <div class="row h-100 justify-content-center">
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/eruulmend.jpg" alt="news" />
+                            src="public/assets/img/new/eruulmend.jpg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Эрүүл мэнд</h5>
                             <p class="mb-0 fw-light lh-base">Хүн ямар ч агуу зорилго, тэмүүлэлтэй байсан, хичнээн олон
@@ -498,7 +500,7 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/yos zui.jpeg" alt="news" />
+                            src="public/assets/img/new/yos zui.jpeg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Ес зүй</h5>
                             <p class="mb-0 fw-light lh-base">Бидний эргэн тойронд алхам тутамд үүсэж байгаа хүн
@@ -518,7 +520,7 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/happyfamily.jpg" alt="news" />
+                            src="public/assets/img/new/happyfamily.jpg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Гэр бүл</h5>
                             <p class="mb-0 fw-light lh-base">Хүн байгаа цагт гэр бүл гэдэг ойлголт байсаар байх болно.
@@ -535,7 +537,7 @@
                     <div class="row h-100 justify-content-center">
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/tuuh.jpeg" alt="news" />
+                            src="public/assets/img/new/tuuh.jpeg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Үндэсний бахархал, өв уламжлал</h5>
                             <p class="mb-0 fw-light lh-base">Монгол хүний бахархал юу вэ? Бид түүх, соёл, өв уламжлалаа
@@ -550,7 +552,7 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/niigmiindundbiyeavchyavah.jpg" alt="news" />
+                            src="public/assets/img/new/niigmiindundbiyeavchyavah.jpg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Нийгмийн дунд биеэ авч явах ойлголт</h5>
                             <p class="mb-0 fw-light lh-base">Гэрээс гараад л бид өөрсдөө нэг нэгээ бухимдуулдаг.
@@ -567,7 +569,7 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/delhiinhemjeeniimedleg.jpg" alt="news" />
+                            src="public/assets/img/new/delhiinhemjeeniimedleg.jpg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Дэлхийн хэмжээний мэдлэг</h5>
                             <p class="mb-0 fw-light lh-base">Монгол улс бол дэлхий хэмээх гариг дээр оршин байгаа 200
@@ -584,7 +586,7 @@
                     <div class="row h-100 justify-content-center">
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/setgelzuinhicheeluud.jpg" alt="news" />
+                            src="public/assets/img/new/setgelzuinhicheeluud.jpg" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Сэтгэл зүйн хичээлүүд</h5>
                             <p class="mb-0 fw-light lh-base">Хүний сэтгэл гэдэг тухайн хүний эрүүл мэнд, цаашдын
@@ -599,7 +601,7 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="card h-100 shadow card-span bg-100"><img class="card-img-top"
-                            src="assets/img/new/ajliinbairanddrhhariltsaa.png" alt="news" />
+                            src="public/assets/img/new/ajliinbairanddrhhariltsaa.png" alt="news" />
                           <div class="card-body">
                             <h5 class="fs-lg-1 my-3 fw-light">Ажлын байр, баг хамт олон дундын харилцаа</h5>
                             <p class="mb-0 fw-light lh-base">Хүн бүр нийгмийн харилцааны нэг хэсэг. Ажлын байр, хамт
@@ -625,78 +627,7 @@
                 ирээдүйнхээ төлөө, үр хойчийнхоо төлөө бид л хийхгүй бол өөр хэнд ч найдаж болохгүй их үйлс билээ.</p>
             </div>
           </div>
-          <!-- <div class="row flex-center h-100">
-            <div class="col-xl-9">
-              <div class="carousel slide" id="carouselEvents" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="8000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-6">
-                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
-                          <div class="text-center text-md-start card-hover">
-                            <div class="card-body">
-                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">1</span></span>
-                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Үндэслэл, судалгаа</h6>
-                              </div>
-                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Бид ямар ч ажлыг ам дамжсан яриа, хувийн сэтгэл хөөрөл, ашиг сонирхолоор явуулахгүй. Бүх ажлууд судалгаа, дүн, шинжилгээн дээр үндэслэн хийгдэнэ. </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-6">
-                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
-                          <div class="text-center text-md-start card-hover">
-                            <div class="card-body">
-                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">2</span></span>
-                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Үлгэрлэн манлайлагч</h6>
-                              </div>
-                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Бид Монгол улсын жишиг иргэдийг төлөвшүүлэн бий болгох маш том зорилго тавин ажиллаж байгаагийн хувьд өөрсдөө мөн тэр хэмжээний жишиг ёс суртахуун, мэдлэг боловсролын үлгэр жишээ болон ажиллана. </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="8000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-6">
-                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
-                          <div class="text-center text-md-start card-hover">
-                            <div class="card-body">
-                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">3</span></span>
-                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Монгол улсын Боловсролын систэм</h6>
-                              </div>
-                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Аливаа систэм нэгдмэл байдлаар зөв тодорхойлогдсон зорилготой, бүх оролцогч талуудыг нягт ойлголцол, харилцан нэгнээ дэмжсэн хамтын ажиллагаан дээр явагддаг. Тиймээс бид эрхэм зорилгынхоо хүрээнд энэ зарчимаар оролцогч талуудыг хамтын ажиллагааг ханган ажиллах болно. </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-6">
-                        <div class="card h-100 shadow px-2 px-lg-3 card-span pt-4">
-                          <div class="text-center text-md-start card-hover">
-                            <div class="card-body">
-                              <div class="d-flex align-items-center"><span class="badge bg-soft-primary text-primary fs--1 fw-light p-3 rounded-1"><span class="fw-medium fs-1 mb-2">4</span></span>
-                                <h6 class="fw-light fs-1 fs-lg-2 text-start ms-3">Шинэчлэх бүтээхэд хувь нэмэрээ оруулна</h6>
-                              </div>
-                              <p class="mt-4 mb-md-0 mb-lg-3 fw-light lh-base text-start">Боловсролын систэм бол улс үндсэтний оршин тогтнох үндэс суурь, ирээдүйн баталгаа байдаг. Хэдийгээр энэ нь том сорилт даваа боловч тооцоо судалгаатайгаар зорилгоо зөв тодорхойлж, хамтын ажиллагаагаа нэгтгэж, тогтвортой байдлыг нь хангуулах нь бидний зүгээс оруулж буй томоохон хувь нэмэр байх болно. </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-3 flex-center">
-                  <div class="col-auto position-relative z-index-2">
-                    <ol class="carousel-indicators">
-                      <li class="active mx-2" data-bs-target="#carouselEvents" data-bs-slide-to="0"></li>
-                      <li class="mx-2" data-bs-target="#carouselEvents" data-bs-slide-to="1"></li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+      
         </section>
 
         <div class="row">
@@ -708,18 +639,6 @@
         <section id="unetZuils" class="py-5">
           <div class="col-lg-7 mx-auto text-center mb-4">
             <h5 class="fw-light fs-3 fs-lg-3 lh-sm mb-3">Үнэт зүйлс</h5>
-            <!-- <dt class="text-primary">БИДНИЙ ЭРХЭМЛЭХ ЗҮЙЛС (ҮНЭТ ЗҮЙЛС)</dt> -->
-            <!-- <p class="mb-3" style="text-transform: uppercase;">Бидний эрхэмлэх зүйлс бол бидний зорилогодоо хүрэх суурь зарчим, жанжин шугам, тулах тулгуур төдийгүй хийхийг зорьж буй ажлын маань өөрсдөөрөө үлгэрлан харуулах жишиг байх болно. </p> -->
-            <!-- <div class="col-lg-4 mx-auto text-md-start mb-4">
-            <dl>
-              <li>Бодлого гаргагчид</li>
-              <li>Хүүхэд</li>
-              <li>Багш </li>
-              <li>Нийгмийн ажилтнууд</li>
-              <li>Эцэг эх</li>
-              <li>Дэмжигч байгууллагууд</li>
-            </dl>
-            </div> -->
           </div>
           <div class="row flex-center h-100">
             <div class="col-xl-9">
@@ -803,7 +722,7 @@
           <div class="row justify-content-center">
             <div class="col-md-4 mb-4">
               <div class="card h-100 shadow card-span">
-                <!-- <img class="card-img-top" src="assets/img/gallery/news-1.png" alt="news" /> -->
+                <!-- <img class="card-img-top" src="public/assets/img/gallery/news-1.png" alt="news" /> -->
                 <div class="card-body">
                   <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                     fill="currentColor" viewBox="0 0 16 16">
@@ -821,7 +740,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card h-100 shadow card-span">
-                <!-- <img class="card-img-top" src="assets/img/gallery/news-2.png" alt="news" /> -->
+                <!-- <img class="card-img-top" src="public/assets/img/gallery/news-2.png" alt="news" /> -->
                 <div class="card-body">
                   <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                     fill="currentColor" viewBox="0 0 16 16">
@@ -839,7 +758,7 @@
             </div>
             <div class="col-md-4 mb-4">
               <div class="card h-100 shadow card-span">
-                <!-- <img class="card-img-top" src="assets/img/gallery/news-3.png" alt="news" /> -->
+                <!-- <img class="card-img-top" src="public/assets/img/gallery/news-3.png" alt="news" /> -->
                 <div class="card-body">
                   <svg class="bi bi-calendar2 me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                     fill="currentColor" viewBox="0 0 16 16">
@@ -885,7 +804,7 @@
                             <a href="https://etdbm.mn/mn/" style="color: #717CFF;">ХХБ Интернэт
                               банкруу нэвтрэх ↓</a>
                           </dl>
-                          <a href="https://www.etdbm.mn/mn/" target="_blank"><img src="assets/img/new/banklogo.jpg"
+                          <a href="https://www.etdbm.mn/mn/" target="_blank"><img src="public/assets/img/new/banklogo.jpg"
                               width="75%" height="75%"> </a>
                         </div>
                       </div>
@@ -906,8 +825,8 @@
                             <li class="mt-3 mb-md-0 mb-lg-3">Үйл ажиллагаагаар дэмжих</li>
                             <li class="mt-3 mb-md-0 mb-lg-3">Бусад </li>
                           </dl>
-                          <a href="https://docs.google.com/forms/d/1cRHN0uhOagBJBp7Aus8HqEg3vkcogxLghV_1bUIyq0g/edit"
-                            class="btn btn-outline-primary order-0" type="submit">Анкет бөглөх</a>
+                          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9kLt4erifTlJTh022d3kHPCe42VkiB5yuHBPzRm6-AAAlag/viewform?usp=sf_link"
+                            class="btn btn-outline-primary order-0" type="submit" target="_blank">Анкет бөглөх</a>
                         </div>
                       </div>
                     </div>
@@ -958,15 +877,13 @@
                         <div class="card h-100 shadow card-span p-3">
                           <div class="card-body">
                             <div class="d-flex align-items-center"><img class="img-fluid"
-                                src="assets/img/gallery/user-1.png" alt="testimonials" />
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
                               <div class="flex-1 ms-4">
                                 <h6 class="fw-light fs-lg-1 mb-1">Батсайханы Батбаяр</h6>
-                                <p class="fw-normal mb-0 text-800">reporter</p>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
                               </div>
                             </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                              ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos
-                              ratione quia aut molestiae velit et.</p>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Боловсролтой монголын ирээдүйг бүтээхэд өөрийн хувь нэмрээ оруулсандаа туйлын их баяртай байна.</p>
                           </div>
                         </div>
                       </div>
@@ -974,15 +891,13 @@
                         <div class="card h-100 shadow card-span p-3">
                           <div class="card-body">
                             <div class="d-flex align-items-center"><img class="img-fluid"
-                                src="assets/img/gallery/user-2.png" alt="testimonials" />
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
                               <div class="flex-1 ms-4">
                                 <h6 class="fw-light fs-lg-1 mb-1">Өлзийбаярын Тайванбаяр</h6>
-                                <p class="fw-normal mb-0 text-800">Landscape</p>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
                               </div>
                             </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                              ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos
-                              ratione quia aut molestiae velit et.</p>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Хүүхэд бол монголын ирээдүй юм. Бид одоо л ирээдүйнхээ төлөө өнөөдрөөс хөдөлмөрлөх ёстой. Энэ байгууллагад хандив өгсөндөө баяртай байна.</p>
                           </div>
                         </div>
                       </div>
@@ -995,15 +910,13 @@
                         <div class="card h-100 shadow card-span p-3">
                           <div class="card-body">
                             <div class="d-flex align-items-center"><img class="img-fluid"
-                                src="assets/img/gallery/user-2.png" alt="testimonials" />
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
                               <div class="flex-1 ms-4">
                                 <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
-                                <p class="fw-normal mb-0 text-800">Landscape</p>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
                               </div>
                             </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                              ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos
-                              ratione quia aut molestiae velit et.</p>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Монгол хүүхдүүдийн төлөө би байгаа бүхнээ зориулах болно.</p>
                           </div>
                         </div>
                       </div>
@@ -1011,15 +924,13 @@
                         <div class="card h-100 shadow card-span p-3">
                           <div class="card-body">
                             <div class="d-flex align-items-center"><img class="img-fluid"
-                                src="assets/img/gallery/user-3.png" alt="testimonials" />
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
                               <div class="flex-1 ms-4">
                                 <h6 class="fw-light fs-lg-1 mb-1">Niek Bove</h6>
-                                <p class="fw-normal mb-0 text-800">Senior Developer</p>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
                               </div>
                             </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                              ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos
-                              ratione quia aut molestiae velit et.</p>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Монголын хүүхдүүд эрүүл энх, эрдэм номтой сайн хүн болоосой.</p>
                           </div>
                         </div>
                       </div>
@@ -1038,14 +949,14 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="10000">
                     <div class="row h-100 justify-content-center">
-                      <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4"
-                          src="assets/img/new/airlink.jpg" /></div>
+                      <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4" width="100%" height="100%"
+                          src="public/assets/img/new/airlink.jpg" /></div>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <div class="row h-100 justify-content-center">
-                      <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4" width="100%" height="50%"
-                          src="assets/img/new/2.png" /></div>
+                      <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4" width="80%" height="50%"
+                          src="public/assets/img/new/2.png" /></div>
                     </div>
                   </div>
                 </div>
@@ -1073,73 +984,15 @@
               <div class="container-info">
                 <div class="item">
                   <div class="hover01 column">
-                    <figure><img src="assets/img/gallery/news-1.png" width="300" height="200"></figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
-                    <button class="delgerengui"
-                      onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
-                    <div id="id01" class="w3-modal w3-animate-opacity">
-                      <div class="w3-modal-content w3-card-4">
-                        <header class="w3-container w3-teal">
-                          <span onclick="document.getElementById('id01').style.display='none'"
-                            class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
-                        </header>
-                        <div class="w3-container">
-                          <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                              width="700" height="700"></iframe>
-                          </div>
-
-                        </div>
-                        <footer class="w3-container w3-teal">
-
-                        </footer>
-                      </div>
-                    </div>
+                    <figure><img src="public/assets/img/gallery/news-1.png" width="300" height="200"></figure>
+                    <p class="info-text">"БОЛОВСРОЛД СУУРИЛСАН ХӨГЖИЛ" ТББ 2020 оны санхүүгийн тайлан 
+                      </p>
+              
+                    <a href="https://docs.google.com/spreadsheets/d/1GqYmQhX8Z0QI3d0DabPdmX8xbCfF-Ih4/"
+                            class="btn btn-outline-primary order-0" type="submit" target="_blank">Дэлгэрэнгүй</a>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="hover01 column">
-                    <figure><img src="assets/img/gallery/news-2.png" width="300" height="200">
-                      <figure>
-                        <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-                          voluptatibus,
-                          ducimus
-                          similique, nihil
-                          vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam,
-                          suscipit
-                          rem
-                          quibusdam tenetur aut.</p>
-                        <button class="delgerengui"
-                          onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
-                        <div id="id01" class="w3-modal w3-animate-opacity">
-                          <div class="w3-modal-content w3-card-4">
-                            <header class="w3-container w3-teal">
-                              <span onclick="document.getElementById('id01').style.display='none'"
-                                class="w3-button w3-large w3-display-topright">&times;</span>
-                              <h2>PDF file унших хэсэг</h2>
-                            </header>
-                            <div class="w3-container">
-                              <div class="iframe-container">
-                                <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                                  width="700" height="700"></iframe>
-                              </div>
-
-                            </div>
-                            <footer class="w3-container w3-teal">
-
-                            </footer>
-                          </div>
-                        </div>
-                  </div>
-                </div>
-
-                <!-- <p class="mb-5">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p> -->
+              
               </div>
             </div>
             <div class="row flex-center h-100">
@@ -1153,11 +1006,84 @@
           <div class="row">
             <div class="col-lg-7 mx-auto text-center my-5">
               <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4">Оролцогч, дэмжигчид</h5>
-              <!-- <p class="mb-5">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p> -->
+        
             </div>
           </div>
           <div class="row flex-center h-100">
+            <div class="text-center">
+              <h6 class="mb-4 text-uppercase fw-light fs-1 mb-6 ">Иргэн</h6>
+            </div>
+            <div class="col-xl-9">
+              <div class="carousel slide" id="carouselTestimonials" data-bs-ride="carousel" style="margin-top: -50px;">
+                <div class="carousel-inner" style="margin-top: 45px;">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row h-100 justify-content-center">
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow card-span p-3">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center"><img class="img-fluid"
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fw-light fs-lg-1 mb-1">Батсайханы Батбаяр</h6>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
+                              </div>
+                            </div>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Боловсролтой монголын ирээдүйг бүтээхэд өөрийн хувь нэмрээ оруулсандаа туйлын их баяртай байна.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow card-span p-3">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center"><img class="img-fluid"
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fw-light fs-lg-1 mb-1">Өлзийбаярын Тайванбаяр</h6>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
+                              </div>
+                            </div>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Хүүхэд бол монголын ирээдүй юм. Бид одоо л ирээдүйнхээ төлөө өнөөдрөөс хөдөлмөрлөх ёстой. Энэ байгууллагад хандив өгсөндөө баяртай байна.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <div class="row h-100 justify-content-center">
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow card-span p-3">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center"><img class="img-fluid"
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
+                              </div>
+                            </div>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Монгол хүүхдүүдийн төлөө би байгаа бүхнээ зориулах болно.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="card h-100 shadow card-span p-3">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center"><img class="img-fluid"
+                                src="public/assets/img/gallery/noavatar.png" alt="testimonials" />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fw-light fs-lg-1 mb-1">Niek Bove</h6>
+                                <p class="fw-normal mb-0 text-800">Иргэн</p>
+                              </div>
+                            </div>
+                            <p class="mb-0 mt-4 fw-light lh-lg">Монголын хүүхдүүд эрүүл энх, эрдэм номтой сайн хүн болоосой.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -1166,19 +1092,6 @@
 
 
     </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-    <!-- sudalgaa start -->
     <section id="sudalgaa" class="py-6 bg-100">
       <div class="row" id="sudalgaa">
         <div class="col-lg-7 mx-auto text-center my-5">
@@ -1191,45 +1104,9 @@
           <div class="container-info">
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-1.png" width="300" height="200"></figure>
-                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                  ducimus
-                  similique, nihil
-                  vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit rem
-                  quibusdam tenetur aut.</p>
-                <button class="delgerengui"
-                  onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
-                <div id="id01" class="w3-modal w3-animate-opacity">
-                  <div class="w3-modal-content w3-card-4">
-                    <header class="w3-container w3-teal">
-                      <span onclick="document.getElementById('id01').style.display='none'"
-                        class="w3-button w3-large w3-display-topright">&times;</span>
-                      <h2>PDF file унших хэсэг</h2>
-                    </header>
-                    <div class="w3-container">
-                      <div class="iframe-container">
-                        <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                          width="700" height="700"></iframe>
-                      </div>
-
-                    </div>
-                    <footer class="w3-container w3-teal">
-
-                    </footer>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-2.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Судалгаа 1</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1237,11 +1114,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1255,14 +1132,9 @@
             </div>
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-3.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Судалгаа 2</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1270,11 +1142,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1306,45 +1178,9 @@
           <div class="container-info">
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-1.png" width="300" height="200"></figure>
-                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                  ducimus
-                  similique, nihil
-                  vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit rem
-                  quibusdam tenetur aut.</p>
-                <button class="delgerengui"
-                  onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
-                <div id="id01" class="w3-modal w3-animate-opacity">
-                  <div class="w3-modal-content w3-card-4">
-                    <header class="w3-container w3-teal">
-                      <span onclick="document.getElementById('id01').style.display='none'"
-                        class="w3-button w3-large w3-display-topright">&times;</span>
-                      <h2>PDF file унших хэсэг</h2>
-                    </header>
-                    <div class="w3-container">
-                      <div class="iframe-container">
-                        <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                          width="700" height="700"></iframe>
-                      </div>
-
-                    </div>
-                    <footer class="w3-container w3-teal">
-
-                    </footer>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-2.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Төсөл хөтөлбөр 1</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1352,11 +1188,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1370,14 +1206,9 @@
             </div>
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-3.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Төсөл хөтөлбөр 2</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1385,11 +1216,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1404,395 +1235,76 @@
           </div>
     </section>
 
-    <!-- tuluvluguu end -->
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- <section class="bg-100" id="country">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7 mx-auto text-center my-5">
-              <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-3">Countries We Covered</h5>
-              <p class="mb-3">Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
-            </div>
-          </div>
-          <div class="row flex-center h-100">
-            <div class="col-xl-9">
-              <div class="carousel slide" id="carouselCountries" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-1.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Australia</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-2.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Canada</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-3.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Uk</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-1.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Australia</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-3.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Uk</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="3000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-1.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Australia</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-2.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Canada</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                        <div class="card h-100 shadow card-span bg-100"><img class="card-img-top" src="assets/img/gallery/country-3.png" alt="news" />
-                          <div class="card-body">
-                            <h5 class="fs-lg-1 my-3 fw-light">Study in Uk</h5>
-                            <p class="mb-0 fw-light lh-base">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-3 mb-7 flex-center">
-                  <div class="col-auto position-relative z-index-2">
-                    <ol class="carousel-indicators">
-                      <li class="active mx-2" data-bs-target="#carouselCountries" data-bs-slide-to="0"></li>
-                      <li class="mx-2" data-bs-target="#carouselCountries" data-bs-slide-to="1"></li>
-                      <li class="mx-2" data-bs-target="#carouselCountries" data-bs-slide-to="2"></li>
-                      <li class="mx-2" data-bs-target="#carouselCountries" data-bs-slide-to="3"></li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section> -->
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- <section id="testimonial">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7 mx-auto text-center my-5">
-              <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4">Testimonial</h5>
-              <p class="mb-5">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p>
-            </div>
-          </div>
-          <div class="row flex-center h-100">
-            <div class="col-xl-9">
-              <div class="carousel slide" id="carouselTestimonials" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Harrison Phillips</h6>
-                                <p class="fw-normal mb-0 text-800">reporter</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
-                                <p class="fw-normal mb-0 text-800">Landscape</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Niek Bove</h6>
-                                <p class="fw-normal mb-0 text-800">Senior Developer</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Harrison Phillips</h6>
-                                <p class="fw-normal mb-0 text-800">reporter</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="3000">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
-                                <p class="fw-normal mb-0 text-800">Landscape</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-3.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Niek Bove</h6>
-                                <p class="fw-normal mb-0 text-800">Senior Developer</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row h-100 justify-content-center">
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-1.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Harrison Phillips</h6>
-                                <p class="fw-normal mb-0 text-800">reporter</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span p-3">
-                          <div class="card-body">
-                            <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/gallery/user-2.png" alt="testimonials" />
-                              <div class="flex-1 ms-4">
-                                <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
-                                <p class="fw-normal mb-0 text-800">Landscape</p>
-                              </div>
-                            </div>
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-5 flex-center">
-                  <div class="col-auto position-relative z-index-2">
-                    <ol class="carousel-indicators">
-                      <li class="active mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="0"></li>
-                      <li class="mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="1"></li>
-                      <li class="mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="2"></li>
-                      <li class="mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="3"></li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
     <!-- <section> begin ============================-->
     <section id="niitlegchid" class="bg-100 py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center my-5">
-            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4">НИЙТЛЭЛ</h5>
-            <!-- <p class="mb-5">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p> -->
+            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4">Нийтлэл</h5>
           </div>
         </div>
 
-        <div class="row flex-center h-100">
-          <div class="col-xl-9">
-            <div class="carousel slide" id="carouselTestimonials" data-bs-ride="carousel" style="margin-top: -50px;">
-              <div class="row mt-5 flex-center">
-                <div class="col-auto position-relative z-index-2">
-                  <ol class="carousel-indicators">
-                    <li class="active mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="0"></li>
-                    <li class="mx-2" data-bs-target="#carouselTestimonials" data-bs-slide-to="1"></li>
-                  </ol>
-                </div>
-              </div>
-              <div class="carousel-inner" style="margin-top: 45px;">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <div class="row h-100 justify-content-center">
-                    <div class="col-md-6 mb-4">
-                      <div class="card h-100 shadow card-span p-3">
-                        <div class="card h-100 shadow card-span"><img class="card-img-top"
-                            src="assets/img/new/eruulmend.jpg" alt="news" />
-                          <div class="card-body">
-                            <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                              ab.</p>
 
-
-                            <div class="w3-container">
-                              <button onclick="document.getElementById('id01').style.display='block'"
-                                class="w3-button w3-black">Дэлгэрэнгүй</button>
-
-                              <div id="id01" class="w3-modal w3-animate-opacity">
-                                <div class="w3-modal-content w3-card-4">
-                                  <header class="w3-container w3-teal">
-                                    <span onclick="document.getElementById('id01').style.display='none'"
-                                      class="w3-button w3-large w3-display-topright">&times;</span>
-                                    <h2>PDF file унших хэсэг</h2>
-                                  </header>
-                                  <div class="w3-container">
-                                    <div class="iframe-container">
-                                      <iframe
-                                        src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                                        width="700" height="700"></iframe>
-                                    </div>
-
-                                  </div>
-                                  <footer class="w3-container w3-teal">
-
-                                  </footer>
-                                </div>
-                              </div>
-                            </div>
-
-                          </div>
+        <div class="container-info">
+          <div class="item">
+            <div class="hover01 column">
+              <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
+                <figure>
+                  <p class="info-text">Нийтлэл 1</p>
+                  <button class="delgerengui"
+                    onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
+                  <div id="id01" class="w3-modal w3-animate-opacity">
+                    <div class="w3-modal-content w3-card-4">
+                      <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                          class="w3-button w3-large w3-display-topright">&times;</span>
+              
+                      </header>
+                      <div class="w3-container">
+                        <div class="iframe-container">
+                          <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
+                            width="700" height="700"></iframe>
                         </div>
+
                       </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                      <div class="card h-100 shadow card-span p-3">
-                        <div class="card-body">
-                          <div class="d-flex align-items-center"> <img class="img-fluid"
-                              src="assets/img/gallery/user-2.png" alt="testimonials" />
-                            <div class="flex-1 ms-4">
-                              <h6 class="fw-light fs-lg-1 mb-1">Өлзийбаярын Тайванбаяр</h6>
-                              <p class="fw-normal mb-0 text-800">Landscape</p>
-                            </div>
-                          </div>
-                          <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                            ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione
-                            quia aut molestiae velit et.</p>
-                        </div>
-                      </div>
+                      <footer class="w3-container w3-teal">
+
+                      </footer>
                     </div>
                   </div>
-                </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="hover01 column">
+              <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
+                <figure>
+                  <p class="info-text">Нийтлэл 2</p>
+                  <button class="delgerengui"
+                    onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
+                  <div id="id01" class="w3-modal w3-animate-opacity">
+                    <div class="w3-modal-content w3-card-4">
+                      <header class="w3-container w3-teal">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                          class="w3-button w3-large w3-display-topright">&times;</span>
+              
+                      </header>
+                      <div class="w3-container">
+                        <div class="iframe-container">
+                          <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
+                            width="700" height="700"></iframe>
+                        </div>
 
-                <div class="carousel-item" data-bs-interval="3000">
-                  <div class="row h-100 justify-content-center">
-                    <div class="col-md-6 mb-4">
-                      <div class="card h-100 shadow card-span p-3">
-                        <div class="card-body">
-                          <div class="d-flex align-items-center"><img class="img-fluid"
-                              src="assets/img/gallery/user-2.png" alt="testimonials" />
-                            <div class="flex-1 ms-4">
-                              <h6 class="fw-light fs-lg-1 mb-1">Ainara Vergara</h6>
-                              <p class="fw-normal mb-0 text-800">Landscape</p>
-                            </div>
-                          </div>
-                          <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                            ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione
-                            quia aut molestiae velit et.</p>
-                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                      <div class="card h-100 shadow card-span p-3">
-                        <div class="card-body">
-                          <div class="d-flex align-items-center"><img class="img-fluid"
-                              src="assets/img/gallery/user-3.png" alt="testimonials" />
-                            <div class="flex-1 ms-4">
-                              <h6 class="fw-light fs-lg-1 mb-1">Niek Bove</h6>
-                              <p class="fw-normal mb-0 text-800">Senior Developer</p>
-                            </div>
-                          </div>
-                          <p class="mb-0 mt-4 fw-light lh-lg">Nisi cumque in necessitatibus molestiae eaque excepturi
-                            ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione
-                            quia aut molestiae velit et.</p>
-                        </div>
-                      </div>
+                      <footer class="w3-container w3-teal">
+
+                      </footer>
                     </div>
                   </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-      </div>
+    </section>
 
       <section id="medeellegch" class="bg-100 py-5">
         <div class="container">
@@ -1807,45 +1319,9 @@
           <div class="container-info">
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-1.png" width="300" height="200"></figure>
-                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                  ducimus
-                  similique, nihil
-                  vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit rem
-                  quibusdam tenetur aut.</p>
-                <button class="delgerengui"
-                  onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
-                <div id="id01" class="w3-modal w3-animate-opacity">
-                  <div class="w3-modal-content w3-card-4">
-                    <header class="w3-container w3-teal">
-                      <span onclick="document.getElementById('id01').style.display='none'"
-                        class="w3-button w3-large w3-display-topright">&times;</span>
-                      <h2>PDF file унших хэсэг</h2>
-                    </header>
-                    <div class="w3-container">
-                      <div class="iframe-container">
-                        <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
-                          width="700" height="700"></iframe>
-                      </div>
-
-                    </div>
-                    <footer class="w3-container w3-teal">
-
-                    </footer>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-2.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Мэдээ, мэдээлэл 1</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1853,11 +1329,40 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
+                              width="700" height="700"></iframe>
+                          </div>
+
+                        </div>
+                        <footer class="w3-container w3-teal">
+
+                        </footer>
+                      </div>
+                    </div>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="hover01 column">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
+                  <figure>
+                    <p class="info-text">Мэдээ, мэдээлэл 2</p>
+                    <button class="delgerengui"
+                      onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
+                    <div id="id01" class="w3-modal w3-animate-opacity">
+                      <div class="w3-modal-content w3-card-4">
+                        <header class="w3-container w3-teal">
+                          <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-large w3-display-topright">&times;</span>
+                
+                        </header>
+                        <div class="w3-container">
+                          <div class="iframe-container">
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1871,14 +1376,9 @@
             </div>
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-3.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Мэдээ, мэдээлэл 3</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1886,11 +1386,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1904,14 +1404,9 @@
             </div>
             <div class="item">
               <div class="hover01 column">
-                <figure><img src="assets/img/gallery/news-2.png" width="300" height="200">
+                <figure><img src="public/assets/img/gallery/news-2.png" width="300" height="200">
                   <figure>
-                    <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus,
-                      ducimus
-                      similique, nihil
-                      vitae voluptatum amet explicabo eos rerum pariatur esse, adipisci incidunt. Placeat quam, suscipit
-                      rem
-                      quibusdam tenetur aut.</p>
+                    <p class="info-text">Мэдээ, мэдээлэл 4</p>
                     <button class="delgerengui"
                       onclick="document.getElementById('id01').style.display='block'">Дэлгэрэнгүй</button>
                     <div id="id01" class="w3-modal w3-animate-opacity">
@@ -1919,11 +1414,11 @@
                         <header class="w3-container w3-teal">
                           <span onclick="document.getElementById('id01').style.display='none'"
                             class="w3-button w3-large w3-display-topright">&times;</span>
-                          <h2>PDF file унших хэсэг</h2>
+                
                         </header>
                         <div class="w3-container">
                           <div class="iframe-container">
-                            <iframe src="https://drive.google.com/file/d/13wDdmPYjUx4zx0n1BveLrPuLo__zKo3n/preview"
+                            <iframe src="https://drive.google.com/file/d/1HJ6Ip_M0RwmCOABRdBcGNjbRJ-zcRSYM/preview"
                               width="700" height="700"></iframe>
                           </div>
 
@@ -1933,49 +1428,10 @@
                         </footer>
                       </div>
                     </div>
-
               </div>
             </div>
           </div>
-          <div class="container" style="margin-top: 50px;">
-            <div class="row">
-              <div class="col-12 mx-auto align-items-center text-center">
-                <h6 class="mb-4 text-uppercase fw-light fs-1 mb-6  ">Байгууллага</h6>
-                <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                      <div class="row h-100 justify-content-center">
-                        <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4"
-                            src="assets/img/new/airlink.jpg" /></div>
-                      </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                      <div class="row h-100 justify-content-center">
-                        <div class="col-sm-6 col-lg-4 col-xl-3 text-xl-start"><img class="mb-4" width="100%"
-                            height="50%" src="assets/img/new/2.png" /></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row mt-5 flex-center">
-                    <div class="col-auto position-relative z-index-2">
-                      <ol class="carousel-indicators">
-                        <li class="active mx-2" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"></li>
-                        <li class="mx-2" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
       </section>
-
-
-
-
-
-
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
@@ -2012,7 +1468,7 @@
           <div class="row justify-content-between pb-2 pt-8">
             <div class="col-12 col-lg-auto mb-5 mb-lg-0"><a class="d-flex align-items-center fw-semi-bold fs-3"
                 href="#">
-                <img class="me-3" width="300" height="70" src="assets/img/gallery/ebd-logo.png" alt="..." /></a>
+                <img class="me-3" width="300" height="70" src="public/assets/img/gallery/ebd-logo.png" alt="..." /></a>
 
             </div>
             <div class="col-auto mb-3">
@@ -2063,38 +1519,23 @@
             </div>
           </div>
           <div class="row">
-            <!-- <div class="col-auto mb-2">
-              <p class="mb-0 fs--1 my-2 text-100">&copy; This website is made with&nbsp;
-                <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#2b2b2b" viewBox="0 0 16 16">
-                  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                </svg>&nbsp;by&nbsp;<a class="text-100" href="#" target="_blank">Jeikei & Ollexio </a>
-              </p>
-            </div> -->
           </div>
         </div><!-- end of .container-->
 
       </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+
 
 
   </main>
   <!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
-
-
-
-
-  <!-- ===============================================-->
   <!--    JavaScripts-->
   <!-- ===============================================-->
-  <script src="vendors/@popperjs/popper.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.min.js"></script>
-  <script src="vendors/is/is.min.js"></script>
+  <script src="public/vendors/@popperjs/popper.min.js"></script>
+  <script src="public/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="public/vendors/is/is.min.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="assets/js/theme.js"></script>
+  <script src="public/assets/js/theme.js"></script>
   <script>
     $(document).ready(function () {
       if ($(".collapse").hasClass("collapse")) {
